@@ -9,7 +9,7 @@ SET QUOTED_IDENTIFIER ON
 GO
 
 create OR alter proc [dbo].[usp_InsertUser]
--- EXEC usp_InsertUser '1016','jdjdjd','asdfds@yahoo.com','123', 0303425541,27
+-- EXEC usp_InsertUser '1016','jdjdjd','asdfds@yahoo.com','123', 03238883647,27
 @userId int = 0,
 @userName nvarchar(MAX),
 @userEmail nvarchar(MAX),
